@@ -143,10 +143,10 @@ Now, use IntelliSense to see the various API calls you can make. You'll see meth
 Think of using the `PortsOfEntry`-specific APIs to get all, get one, create, and then update a port of entry model:
 
 ```csharp
-apiClient.PortsOfEntryAllAsync();               // gets all
-apiClient.PortsOfEntry2Async(Guid.Empty);       // gets one
-apiClient.PortsOfEntryAsync(null);              // create
-apiClient.PortsOfEntry3Async(Guid.Empty, null); // update
+apiClient.GetPortOfEntryAsync();                     // gets all
+apiClient.GetPortOfEntryByIdAsync(Guid.Empty);       // gets one
+apiClient.CreatePortOfEntryAsync(null);              // create
+apiClient.UpdatePortOfEntryAsync(Guid.Empty, null);  // update
 ```
 
 ### Generating clients using dotnet openapi tools for APIs without operationId
