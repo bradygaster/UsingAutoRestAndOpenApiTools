@@ -17,9 +17,9 @@ You will need the following dependencies on your machine to make the contents of
 
     Then, validate the installation worked by running the `--help` command to see AutoRest's in-product documentation.
 
-        ```
-        autorest --help
-        ```
+    ```
+    autorest --help
+    ```
 
 * .NET Core - Install from https://dotnet.microsoft.com/download
 
